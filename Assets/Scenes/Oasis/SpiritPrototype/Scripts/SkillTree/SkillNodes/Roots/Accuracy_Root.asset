@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d76e188a55382b44b6b957fc9ee2443, type: 3}
+  m_Name: Accuracy_Root
+  m_EditorClassIdentifier: 
+  nodeName: Accuracy
+  icon: {fileID: 21300000, guid: 543bb39d72996034c9c786423b7e517e, type: 3}
+  description: Increases the players accuracy
+  costPoints: 1
+  children:
+  - {fileID: 11400000, guid: 1cfb380b7fa002043ba2c33cbb64766d, type: 2}
+  parentNode: {fileID: 0}
+  isUnlocked: 0
+  effect: {fileID: 11400000, guid: dccc39c671e40f24ea2ec4eecf7328f9, type: 2}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038aabf37af28d04198771d0db7ec851, type: 3}
+  m_Name: Ranks
+  m_EditorClassIdentifier: 
+  ranks:
+  - threshold: 0
+    title: Seeker
+    rewards:
+    - {fileID: 11400000, guid: f5f901a56cc7c7e408dd7f08f16bb2ab, type: 2}
+    companionDialog: {fileID: 0}
+    relicSlotCount: 1
+  - threshold: 5
+    title: Guider
+    rewards:
+    - {fileID: 11400000, guid: e651b3a1f44211b4db642fab9c519214, type: 2}
+    companionDialog: {fileID: 0}
+    relicSlotCount: 2
+  - threshold: 10
+    title: Exorcist
+    rewards:
+    - {fileID: 11400000, guid: 836cdac08ab5f914ca11db8ab63b55fd, type: 2}
+    companionDialog: {fileID: 0}
+    relicSlotCount: 3
+  - threshold: 15
+    title: Master
+    rewards:
+    - {fileID: 11400000, guid: 9c4b9a13a28a8c946bf512dc7e8b506f, type: 2}
+    companionDialog: {fileID: 0}
+    relicSlotCount: 4

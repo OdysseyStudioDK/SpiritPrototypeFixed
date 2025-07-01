@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d76e188a55382b44b6b957fc9ee2443, type: 3}
+  m_Name: Support_Child2
+  m_EditorClassIdentifier: 
+  nodeName: Support
+  icon: {fileID: 21300000, guid: 7a29934cda3804f4cb928c8ffe789f31, type: 3}
+  description: Increases the players support
+  costPoints: 3
+  children:
+  - {fileID: 11400000, guid: 0dc0351b6b03aff48a09a5e9d6262dc8, type: 2}
+  parentNode: {fileID: 11400000, guid: fd50578c37c80914cb2e4831a0d3f8d3, type: 2}
+  isUnlocked: 0
+  effect: {fileID: 11400000, guid: 27d381f87aee1b6459c181b75ee90b99, type: 2}
